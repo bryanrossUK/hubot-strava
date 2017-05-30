@@ -1,7 +1,7 @@
 {
   "name": "hubot-strava",
   "description": "Get the latest activities from your Strava friends.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "liquidstate",
   "license": "MIT",
   "keywords": [
@@ -16,8 +16,7 @@
   "bugs": {
     "url": "https://github.com/liquidstate/hubot-strava/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
     "coffee-script": "1.12.5",
