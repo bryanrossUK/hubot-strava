@@ -1,0 +1,39 @@
+{
+  "name": "hubot-strava",
+  "description": "Get the latest activities from your Strava friends.",
+  "version": "0.0.1",
+  "author": "liquidstate",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "strava"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:liquidstate/hubot-strava.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liquidstate/hubot-strava/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "1.12.5",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-mocha-test": "~0.13.2",
+    "grunt-release": "~0.14.0",
+    "hubot": "2.x",
+    "matchdep": "~1.0.1",
+    "mocha": "^3.3.0",
+    "sinon": "^2.2.0",
+    "sinon-chai": "^2.10.0"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
