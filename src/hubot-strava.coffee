@@ -11,7 +11,6 @@
 #   HUBOT_STRAVA_API_ACCESS_TOKEN - your Strava API Access Token
 
 process.env.HUBOT_STRAVA_API_URL ||= 'https://www.strava.com/api/v3'
-process.env.HUBOT_STRAVA_API_ACCESS_TOKEN
 
 strava_url  = process.env.HUBOT_STRAVA_API_URL
 strava_auth = 'Bearer ' + process.env.HUBOT_STRAVA_API_ACCESS_TOKEN
